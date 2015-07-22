@@ -81,7 +81,7 @@ for i = 1:Npos
   figure(1)
   clf
   imagesc(I)
-  plot_bbox(bbs{i});
+  plot_bbox(bbs{i},'r');
 
   pause
   end
